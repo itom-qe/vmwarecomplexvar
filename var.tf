@@ -37,7 +37,9 @@ variable "password"                 {
 variable "vsphere_server"           {
     default = "10.198.1.13"
 }
-variable "vmname"{}
+variable "vmname"{
+    default = "defaultvmname"
+}
 variable "objectVar" {
  default = {
    name = "My Vm Instance"
